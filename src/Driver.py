@@ -99,7 +99,7 @@ class Driver:
     
 def main():
     driver =Driver()
-    driver.set_input_path("/media/nausheenfatma/01CFC8995ADC9230/3rdSemester/NLP_TAship/WordRepresentation/WordRep/input/English_sample.txt")
+    driver.set_input_path("/../input/English_sample.txt")
     driver.set_parameters(k=5,f=5,no_of_iterations=10)
     driver.run()
 
